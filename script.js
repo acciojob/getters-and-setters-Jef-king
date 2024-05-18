@@ -1,20 +1,20 @@
 //complete this code
 class Person {
 	constructor(name,age){
-		this.Name=name;
-		this.Age=age;
+		this.name=name;
+		this.age=age;
 	}
 }
 
 class Student extends Person {
 	study(){
-		console.log(`${this.Name} is studying`);
+		console.log(`${this.name} is studying`);
 	}
 }
 
 class Teacher extends Person {
 	teach(){
-		console.log(`${this.Name} is teaching`);
+		console.log(`${this.name} is teaching`);
 	}
 }
 
